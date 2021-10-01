@@ -70,6 +70,9 @@ industry:
     location: San Luis, Argentina
     title: Software Engineer
     dates: Jan 2016 -- Mar 2017
+    details:
+      - Worked for the fraud prevention team, builing machine learning models to detect posible fraudulent transactions in the site.
+      - "Responsible for the feature selection, data cleaning, train, evaluation and deploy of the models in production."
 
 teaching:
   - semester: 2020 -- Present
