@@ -71,8 +71,8 @@ industry:
     title: Software Engineer
     dates: Jan 2016 -- Mar 2017
     details:
-      - Worked for the fraud prevention team, builing machine learning models to detect posible fraudulent transactions in the site.
-      - "Responsible for the feature selection, data cleaning, train, evaluation and deploy of the models in production."
+      - "Member of the fraud prevention team responsible for building machine learning models to detect fraudulent transactions in Mercado Libre's platform."
+      - "In charge of data cleaning, feature selection, model trainning, evaluation and deployment in production."
 
 teaching:
   - semester: 2020 -- Present
