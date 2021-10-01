@@ -36,13 +36,13 @@ $(TEX) $(MD): $(TEMPLATES) $(YAML_FILES) generate.py
 
 $(PDF): $(TEX) publications/*.bib
 	# TODO: Hack for biber on OSX.
-	rm -rf /var/folders/8p/lzk2wkqj47g5wf8g8lfpsk4w0000gn/T/par-62616d6f73
+	# rm -rf /var/folders/8p/lzk2wkqj47g5wf8g8lfpsk4w0000gn/T/par-62616d6f73
 
 	latexmk -pdf -cd- -jobname=$(BUILD_DIR)/cv $(BUILD_DIR)/cv
 	latexmk -c -cd $(BUILD_DIR)/cv
 
 viewpdf: $(PDF)
-	gnome-open $(PDF)
+	/usr/bin/atril $(PDF)
 
 stage: $(PDF) $(MD)
 	cp $(PDF) $(WEBSITE_PDF)
