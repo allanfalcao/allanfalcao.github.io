@@ -12,7 +12,6 @@
 
 \moderncvstyle{<< style >>}
 \moderncvcolor{<< color >>}
-%\definecolor{color3}{rgb}{<<color3>>}
 \definecolor{color2}{rgb}{<<color2>>}
 %\renewcommand{\familydefault}{\sfdefault}
 
@@ -27,7 +26,6 @@
 
 \frenchspacing
 
-\usepackage[utf8]{inputenc}
 
 % Usado para controlar que caracter estaba rompiendo todo
 %\DeclareUnicodeCharacter{0301}{*************************************}
@@ -62,7 +60,8 @@
 % }
 
 \usepackage{lastpage}
-\cfoot{\addressfont\textcolor{gray}{Page \thepage\ of \pageref{LastPage}}}
+% \pageref*   impide que hyperref genere un link con el número de páginas.
+\cfoot{\addressfont\textcolor{gray}{Page \thepage\ of \pageref*{LastPage}}}
 
 \AtEndPreamble{\hypersetup{pdftitle={CV -- << name.first >> << name.last >>}}}
 \name{<< name.first >>}{<< name.last >>}
@@ -78,10 +77,21 @@
 %\photo[64pt][0.4pt]{picture}
 % \quote{Last updated \today}
 
-\AtBeginDocument{\hypersetup{colorlinks, urlcolor=color1}}
+
+% Para configurar como se ven los hyper-vínculos, debemos configurar hyperref.
+% Esto no es trivial, ya que muchos paquetes utilizan e inicializan el paquete.
+% Si esto no se hace \AtEndPreamble el \hypersetup no tiene efecto.
+% Antes lo hacíamos con \hypersetup luego del comienzo del documento, pero
+% versiones nuevas de LiveTex no funciona (>2021).
+\AtEndPreamble{%
+  \RequirePackage{hyperref}
+  \hypersetup{%
+        colorlinks    = true,%  Color text instead of boxes
+        urlcolor      = color1,%  Color of external urls
+  }
+}
 
 \begin{document}
-\hypersetup{linkcolor=color0,urlcolor=color1}
 \makecvtitle
 << body >>
 

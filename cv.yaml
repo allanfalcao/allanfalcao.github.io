@@ -18,7 +18,6 @@ social:
 style: banking # casual, classic, oldstyle, or banking
 color: blue # blue, orange, green, red, purple, grey and black
 color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
-color3: '1.0,0.15,0.35' # Make the font under the name a darker grey.
 
 # (tag, section type, title)
 order:
