@@ -91,9 +91,9 @@ teaching:
 all_publications:
   name: "J. Loyola"
   categories:
-#    - heading: Preprints and Tech Reports
-#      prefix: P
-#      file: tech-reports.bib
+    - heading: Preprints
+      prefix: P
+      file: preprints.bib
     - heading: Conference Proceedings
       prefix: C
       file: conference.bib
@@ -152,11 +152,11 @@ coursework:
 
 skills:
   - title: Languages
-    details: Python, Java, C
+    details: Python, SQL, Java, C, Bash
   - title: Frameworks
-    details: scikit-learn, NumPy, Pandas, PyTorch, SciPy, PyMC3
+    details: Scikit-learn, NumPy, Pandas, PyTorch, FastAPI, PyMC
   - title: Tools
-    details: Linux, git, vim, tmux
+    details: GNU/Linux, git, vim, tmux, sqlite3, \LaTeX
 
 honors:
   - title: CONICET Doctoral Fellowship
@@ -168,6 +168,6 @@ service:
   - title: Host
     details: \href{https://www.meetup.com/PyData-San-Luis/members/?op=leaders}{PyData Meetups San Luis}
   - title: Contributor
-    details: \href{https://github.com/pymc-devs/pymc3/commits?author=jmloyola}{PyMC3}, \href{https://github.com/scikit-learn/scikit-learn/commits?author=jmloyola}{scikit-learn}
+    details: \href{https://github.com/pymc-devs/pymc/commits?author=jmloyola}{PyMC}, \href{https://github.com/scikit-learn/scikit-learn/commits?author=jmloyola}{Scikit-learn} (\href{https://github.com/orgs/scikit-learn/teams/contributor-experience-team/members}{``Contributor Experience Team''} member)
   - title: Program Participant
     details: 'Google Summer of Code 2019 with NumFOCUS: \href{https://summerofcode.withgoogle.com/projects/4666396833742848}{Bayesian Additive Regression Trees in PyMC3}'
