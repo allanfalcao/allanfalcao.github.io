@@ -22,32 +22,32 @@ color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
 # (tag, section type, title)
 order:
 #  - [about, NONE]
-  # - [news, News]
+#  - [news, News]
   - [education, Education]
-  - [research, Research Experience]
+#  - [research, Research Experience]
 #  - [selected_publications, Selected Publications]
 #  - [NEWPAGE, NEWPAGE]
-  - [teaching, Teaching Experience]
-  - [industry, Industry Experience]
+#  - [teaching, Teaching Experience]
+  - [industry, Working Experience]
 #  - [projects, Projects]
-  - [coursework, Graduate Coursework]
-  - [honors, Honors \& Awards]
+#  - [coursework, Graduate Coursework]
+#  - [honors, Honors \& Awards]
   - [skills, Skills]
   - [service, Service]
 #  - [NEWPAGE, NEWPAGE]
-  - [all_publications, All Publications]
+#  - [all_publications, All Publications]
 #  - [activities, Activities]
 
 education:
   - school: National University of San Luis
     location: San Luis, Argentina
     degree: Ph.D. in Computer Science
-    dates: Apr 2017 -- Present
+    dates: 2017 -- Present
 
   - school: National University of San Luis
     location: San Luis, Argentina
-    degree: B.S. in Computer Science
-    dates: Mar 2010 -- Mar 2017
+    degree: Lic. in Computer Science
+    dates: 2010 -- 2017
 
 research:
   - place: National University of San Luis
@@ -65,13 +65,41 @@ research:
     area: Tools and mechanisms for decision making in artificial intelligent agents
 
 industry:
+  - place: CONICET
+    location: Argentina
+    title: PhD Fellow
+    dates: 2017 -- Present
+    details:
+      - Main research topic was the application of NLP models for early detection of risk.
+      - Formalize the Early Classification framework.
+      - 'Participate in the \href{https://early.irlab.org/}{``Early risk prediction on the Internet''''} (eRisk) laboratory.'
+      - Present and comunicate results in conferences and research articles.
+
+  - place: National University of San Luis
+    location: San Luis, Argentina
+    title: Teaching Assistant
+    dates: 2019 -- Present
+    details:
+      - 'Databases \hfill 2020 – Present'
+      - 'Data Structure and Algorithms \hfill S2019'
+      - 'Logic in Computer Science \hfill F2019'
+
+  - place: NumFOCUS
+    location: '\href{https://summerofcode.withgoogle.com/projects/4666396833742848}{Google Summer of Code}'
+    title: Student Developer
+    dates: Jun 2019 -- Aug 2019
+    details:
+      - Base implementation of Bayesian Additive Regression Trees in PyMC.
+      - Define a flexible API for user defined priors and likelihoods.
+      - Write tests and documentation.
+
   - place: Mercado Libre
     location: San Luis, Argentina
     title: Software Engineer
-    dates: Jan 2016 -- Mar 2017
+    dates: 2016 -- 2017
     details:
       - "Member of the fraud prevention team responsible for building machine learning models to detect fraudulent transactions in Mercado Libre's platform."
-      - "In charge of data cleaning, feature selection, model trainning, evaluation and deployment in production."
+      - "In charge of data cleaning, feature selection, model training, evaluation and deployment in production."
 
 teaching:
   - semester: 2020 -- Present
@@ -169,5 +197,3 @@ service:
     details: \href{https://www.meetup.com/PyData-San-Luis/members/?op=leaders}{PyData Meetups San Luis}
   - title: Contributor
     details: \href{https://github.com/pymc-devs/pymc/commits?author=jmloyola}{PyMC}, \href{https://github.com/scikit-learn/scikit-learn/commits?author=jmloyola}{Scikit-learn} (\href{https://github.com/orgs/scikit-learn/teams/contributor-experience-team/members}{``Contributor Experience Team''} member)
-  - title: Program Participant
-    details: 'Google Summer of Code 2019 with NumFOCUS: \href{https://summerofcode.withgoogle.com/projects/4666396833742848}{Bayesian Additive Regression Trees in PyMC3}'

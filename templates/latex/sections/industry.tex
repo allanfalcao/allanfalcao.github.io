@@ -3,14 +3,20 @@
 ~< block body >~
   \begin{itemize}
     ~< for item in items >~
-      \item << item.title >>, << item.place >>, << item.location >>\hfill << item.dates >>
+      \item \textbf{<< item.title >>}, << item.place >>, << item.location >>\hfill << item.dates >>
+      ~< if item.title == 'Teaching Assistant' >~
+        Courses:
+      ~< endif >~
+      \vspace{1.2mm}
 %        \iffalse
         \begin{itemize}
           ~< for detail in item.details ->~
             \item <<detail>>
+            \vspace{1.2mm}
           ~<- endfor ->~
         \end{itemize}
 %        \fi
+      \vspace{2.5mm}
     ~< endfor >~
   \end{itemize}
 ~< endblock body >~
