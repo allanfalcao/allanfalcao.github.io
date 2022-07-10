@@ -73,6 +73,7 @@
 \social[linkedin]{<<social.linkedin>>}
 \social[twitter]{<<social.twitter>>}
 \social[github]{<<social.github>>}
+\social[googlescholar]{<<social.google_scholar>>}
 \extrainfo{\small Last updated on \today}
 %\photo[64pt][0.4pt]{picture}
 % \quote{Last updated \today}
@@ -89,6 +90,14 @@
         colorlinks    = true,%  Color text instead of boxes
         urlcolor      = color1,%  Color of external urls
   }
+}
+
+% En caso de utilizar XeLaTeX, se tiene que mover los `labelitemi` un poco para arriba.
+\AtEndPreamble{
+  \RequirePackage{fontawesome}
+  \renewcommand\labelitemi{%
+    \strut
+    \raisebox{1.5pt}{\textcolor {color1}{\tiny \faCircleO }}}
 }
 
 \begin{document}

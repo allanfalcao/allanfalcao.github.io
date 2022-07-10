@@ -38,7 +38,9 @@ $(PDF): $(TEX) publications/*.bib
 	# TODO: Hack for biber on OSX.
 	# rm -rf /var/folders/8p/lzk2wkqj47g5wf8g8lfpsk4w0000gn/T/par-62616d6f73
 
-	latexmk -pdf -cd- -jobname=$(BUILD_DIR)/cv $(BUILD_DIR)/cv
+	# Para utilizar XeLaTeX colocar `-pdfxe`. Si se quiere utilizar los símbolos académicos es necesario usar XeLaTeX.
+	# Para utilizar PdfLaTeX colocar `-pdf`.
+	latexmk -pdfxe -cd- -jobname=$(BUILD_DIR)/cv $(BUILD_DIR)/cv
 	latexmk -c -cd $(BUILD_DIR)/cv
 
 viewpdf: $(PDF)
