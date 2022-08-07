@@ -23,17 +23,17 @@ color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
 order:
 #  - [about, NONE]
 #  - [news, News]
-  - [education, Education]
 #  - [research, Research Experience]
 #  - [selected_publications, Selected Publications]
 #  - [NEWPAGE, NEWPAGE]
 #  - [teaching, Teaching Experience]
-  - [industry, Working Experience]
+  - [education, Education]
+  - [industry, Experience]
+  - [skills, Skills]
+  - [service, Service]
 #  - [projects, Projects]
 #  - [coursework, Graduate Coursework]
 #  - [honors, Honors \& Awards]
-  - [skills, Skills]
-  - [service, Service]
 #  - [NEWPAGE, NEWPAGE]
 #  - [all_publications, All Publications]
 #  - [activities, Activities]
@@ -184,7 +184,7 @@ skills:
   - title: Frameworks
     details: Scikit-learn, NumPy, Pandas, PyTorch, FastAPI, PyMC
   - title: Tools
-    details: GNU/Linux, git, vim, tmux, sqlite3, \LaTeX
+    details: GNU/Linux, git, sqlite3, \LaTeX
 
 honors:
   - title: CONICET Doctoral Fellowship

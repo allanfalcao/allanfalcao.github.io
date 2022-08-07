@@ -16,7 +16,9 @@
           ~<- endfor ->~
         \end{itemize}
 %        \fi
-      \vspace{2.5mm}
+      ~< if loop.index0 < loop.length - 1 >~
+        \vspace{2.5mm}
+      ~< endif >~
     ~< endfor >~
   \end{itemize}
 ~< endblock body >~
