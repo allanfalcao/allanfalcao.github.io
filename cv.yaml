@@ -42,7 +42,7 @@ education:
   - school: National University of San Luis
     location: San Luis, Argentina
     degree: Ph.D. in Computer Science
-    dates: 2017 -- Present
+    dates: 2017 -- May 2023 (estimated)
 
   - school: National University of San Luis
     location: San Luis, Argentina
@@ -70,10 +70,19 @@ industry:
     title: PhD Fellow
     dates: 2017 -- Present
     details:
-      - Main research topic was the application of NLP models for early detection of risk.
-      - Formalize the Early Classification framework.
-      - 'Participate in the \href{https://early.irlab.org/}{``Early risk prediction on the Internet''''} (eRisk) laboratory.'
-      - Present and comunicate results in conferences and research articles.
+      - Main research topic was the application of NLP models for early risk detection.
+      - Defined a pipeline to acquire and pre-process data, classify input, and publish results.
+      - 'Designed and implemented a mock server to provide dataset samples and receive predictions, replicating the behavior from the \href{https://early.irlab.org/}{eRisk laboratory}. \href{https://github.com/jmloyola/erisk_mock_server/}{[Link to repository]}'
+      - 'Open-sourced most of the projects. Link to repositories: \href{https://github.com/jmloyola/early-classification}{[1]}, \href{https://github.com/jmloyola/unsl_erisk_2021}{[2]}, \href{https://github.com/jmloyola/unsl_erisk_2022}{[3]}.'
+
+  - place: Scikit-learn
+    location: remote
+    title: Contributor experience team member
+    dates: Dic 2021 -- Present
+    details:
+      - 'Fixed issues related to documentation and added a \href{https://github.com/scikit-learn/scikit-learn/pull/21408}{new SVC classifier feature}.'
+      - '\href{https://github.com/scikit-learn/scikit-learn/pulls?q=is%3Apr+reviewed-by%3Ajmloyola+-author%3Ajmloyola}{Reviewed pull requests}.'
+      - 'Organized and ran a \href{https://blog.scikit-learn.org/events/salta-sprint/}{Scikit-Learn Sprint during the ScyPy Latin America 2022}.'
 
   - place: National University of San Luis
     location: San Luis, Argentina
@@ -89,16 +98,15 @@ industry:
     title: Student Developer
     dates: Jun 2019 -- Aug 2019
     details:
-      - Base implementation of Bayesian Additive Regression Trees in PyMC.
-      - Define a flexible API for user defined priors and likelihoods.
-      - Write tests and documentation.
+      - Provided the Bayesian Additive Regression Trees base implementation in PyMC.
+      - Wrote tests and documentation for the new model.
 
   - place: Mercado Libre
     location: San Luis, Argentina
     title: Software Engineer
     dates: 2016 -- 2017
     details:
-      - "Member of the fraud prevention team responsible for building machine learning models to detect fraudulent transactions in Mercado Libre's platform."
+      - "Fraud prevention team member responsible for building machine learning models to detect fraudulent transactions in Mercado Libre's platform."
       - "In charge of data cleaning, feature selection, model training, evaluation and deployment in production."
 
 teaching:
@@ -188,12 +196,12 @@ skills:
 
 honors:
   - title: CONICET Doctoral Fellowship
-    year: 2017 -- 2022
+    year: 2017 -- 2023
   - title: Scholarship to attend the Machine Learning Summer School, Argentina
     year: 2018
 
 service:
   - title: Host
-    details: \href{https://www.meetup.com/PyData-San-Luis/members/?op=leaders}{PyData Meetups San Luis}
+    details: \href{https://www.meetup.com/PyData-San-Luis}{PyData Meetups San Luis} (2018 -- 2022)
   - title: Contributor
-    details: \href{https://github.com/pymc-devs/pymc/commits?author=jmloyola}{PyMC}, \href{https://github.com/scikit-learn/scikit-learn/commits?author=jmloyola}{Scikit-learn} (\href{https://github.com/orgs/scikit-learn/teams/contributor-experience-team/members}{``Contributor Experience Team''} member)
+    details: \href{https://github.com/pymc-devs/pymc/commits?author=jmloyola}{PyMC}, \href{https://github.com/scikit-learn/scikit-learn/commits?author=jmloyola}{Scikit-learn}
