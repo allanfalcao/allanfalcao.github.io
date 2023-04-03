@@ -103,7 +103,7 @@ industry:
 
   - place: Mercado Libre
     location: San Luis, Argentina
-    title: Software Engineer
+    title: Data Scientist
     dates: 2016 -- 2017
     details:
       - "Fraud prevention team member responsible for building machine learning models to detect fraudulent transactions in Mercado Libre's platform."
