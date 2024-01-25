@@ -5,12 +5,11 @@
 name:
   first: Juan Martín
   last: Loyola
-phone: +54~266~4520300~int.~3046
+phone: +54~266~4505280
 email: jmloyola@unsl.edu.ar
 url: "jmloyola.github.io"
 social:
   github: jmloyola
-  twitter: jmartinloyola
   linkedin: juanmartinloyola
   google_scholar: EvpfZQMAAAAJ
 
@@ -27,8 +26,8 @@ order:
 #  - [selected_publications, Selected Publications]
 #  - [NEWPAGE, NEWPAGE]
 #  - [teaching, Teaching Experience]
-  - [education, Education]
   - [industry, Experience]
+  - [education, Education]
   - [skills, Skills]
   - [service, Service]
 #  - [projects, Projects]
@@ -42,7 +41,7 @@ education:
   - school: National University of San Luis
     location: San Luis, Argentina
     degree: Ph.D. in Computer Science
-    dates: 2017 -- May 2023 (estimated)
+    dates: 2017 -- 2023
 
   - school: National University of San Luis
     location: San Luis, Argentina
@@ -54,7 +53,7 @@ research:
     location: San Luis, Argentina
     title: Undergraduate Research Assistant
     advisor: Marcelo Luis Errecalde
-    dates: Apr 2016 -- Present
+    dates: Apr 2016 -- 2023
     area: Machine learning and decision making in intelligent systems for the web
 
   - place: National University of San Luis
@@ -65,52 +64,61 @@ research:
     area: Tools and mechanisms for decision making in artificial intelligent agents
 
 industry:
-  - place: CONICET
+  - place: ICBC
     location: Argentina
-    title: PhD Fellow
-    dates: 2017 -- Present
+    title: Machine Learning Engineer
+    dates: 2023 -- Present
     details:
-      - Main research topic was the application of NLP models for early risk detection.
-      - Defined a pipeline to acquire and pre-process data, classify input, and publish results.
-      - 'Designed and implemented a mock server to provide dataset samples and receive predictions, replicating the behavior from the \href{https://early.irlab.org/}{eRisk laboratory}. \href{https://github.com/jmloyola/erisk_mock_server/}{[Link to repository]}'
-      - 'Open-sourced most of the projects. Link to repositories: \href{https://github.com/jmloyola/early-classification}{[1]}, \href{https://github.com/jmloyola/unsl_erisk_2021}{[2]}, \href{https://github.com/jmloyola/unsl_erisk_2022}{[3]}.'
+      - 'Machine learning processes automatization: training, re-training and inference.'
+      - Deploy and monitor models.
+      - 'Stack: Python, FastAPI, Apache NiFi, Microsoft Azure, Docker'
 
   - place: Scikit-learn
     location: remote
     title: Contributor experience team member
-    dates: Dic 2021 -- Present
+    dates: 2022 -- Present
     details:
-      - 'Fixed issues related to documentation and added a \href{https://github.com/scikit-learn/scikit-learn/pull/21408}{new SVC classifier feature}.'
-      - '\href{https://github.com/scikit-learn/scikit-learn/pulls?q=is%3Apr+reviewed-by%3Ajmloyola+-author%3Ajmloyola}{Reviewed pull requests}.'
+      - 'Contributed with \href{https://github.com/scikit-learn/scikit-learn/pulls?q=is%3Apr+author%3Ajmloyola+}{PRs} and \href{https://github.com/scikit-learn/scikit-learn/pulls?q=is%3Apr+reviewed-by%3Ajmloyola+-author%3Ajmloyola}{PRs reviews}.'
       - 'Organized and ran a \href{https://blog.scikit-learn.org/events/salta-sprint/}{Scikit-Learn Sprint during the ScyPy Latin America 2022}.'
+      - 'Stack: Python, C'
 
   - place: National University of San Luis
     location: San Luis, Argentina
     title: Teaching Assistant
-    dates: 2019 -- Present
+    dates: 2019 -- 2023
     details:
-      - 'Databases \hfill 2020 – Present'
-      - 'Data Structure and Algorithms \hfill S2019'
-      - 'Logic in Computer Science \hfill F2019'
+      - 'Databases (2020 -- 2023)'
+      - 'Data Structure and Algorithms (S2019)'
+      - 'Logic in Computer Science (F2019)'
+
+  - place: CONICET
+    location: Argentina
+    title: Ph.D. Fellow
+    dates: 2017 -- 2023
+    details:
+      - 'Main research topic: application of NLP models for early risk detection.'
+      - 'Open-sourced most of the project code. Link to repositories: \href{https://github.com/jmloyola/early-classification}{[1]}, \href{https://github.com/jmloyola/unsl_erisk_2021}{[2]}, \href{https://github.com/jmloyola/unsl_erisk_2022}{[3]}, \href{https://github.com/jmloyola/erisk_mock_server/}{[4]}.'
+      - 'Stack: Python, Scikit-learn, PyTorch, FastAPI, bash, Pandas, sqlite3, Docker, \LaTeX'
 
   - place: NumFOCUS
     location: '\href{https://summerofcode.withgoogle.com/projects/4666396833742848}{Google Summer of Code}'
     title: Student Developer
     dates: Jun 2019 -- Aug 2019
     details:
-      - Provided the Bayesian Additive Regression Trees base implementation in PyMC.
-      - Wrote tests and documentation for the new model.
+      - 'Developed the \href{https://arxiv.org/abs/2206.03619}{Bayesian Additive Regression Trees} base implementation in PyMC.'
+      - 'Stack: Python, PyMC, NumPy'
 
   - place: Mercado Libre
     location: San Luis, Argentina
     title: Data Scientist
     dates: 2016 -- 2017
     details:
-      - "Fraud prevention team member responsible for building machine learning models to detect fraudulent transactions in Mercado Libre's platform."
-      - "In charge of data cleaning, feature selection, model training, evaluation and deployment in production."
+      - "Built machine learning models to detect fraudulent transactions in Mercado Libre's platform."
+      - 'Worked in the model end to end: data cleaning, feature selection, model training, evaluation and deployment in production.'
+      - 'Stack: Python, SQL, Java'
 
 teaching:
-  - semester: 2020 -- Present
+  - semester: 2020 -- 2023
     name: Databases
     position: TA
   - semester: S2019
@@ -190,9 +198,9 @@ skills:
   - title: Languages
     details: Python, SQL, Java, C, Bash
   - title: Frameworks
-    details: Scikit-learn, NumPy, Pandas, PyTorch, FastAPI, PyMC
-  - title: Tools
-    details: GNU/Linux, git, sqlite3, \LaTeX
+    details: Scikit-learn, NumPy, Pandas, FastAPI, PyTorch, PyMC
+  - title: Platforms \& Tools
+    details: GNU/Linux, Microsoft Azure, git, sqlite3, Docker, Apache NiFi, \LaTeX
 
 honors:
   - title: CONICET Doctoral Fellowship
