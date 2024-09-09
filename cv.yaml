@@ -3,13 +3,12 @@
 ## No se a que se debe este error.
 
 name:
-  first: Juan Martín
-  last: Loyola
+  first: Allan	
+  last: de Bastos Falcão
 phone: XXXXXXXXXXX
-email: jmloyola@unsl.edu.ar
-url: "jmloyola.github.io"
+email: allanbastosfalcao@hotmail.com
+url: "allanfalcao.github.io"
 social:
-  github: jmloyola
   linkedin: juanmartinloyola
   google_scholar: EvpfZQMAAAAJ
 
@@ -20,7 +19,7 @@ color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
 
 # (tag, section type, title)
 order:
-#  - [about, NONE]
+#  - [about, -]
 #  - [news, News]
 #  - [research, Research Experience]
 #  - [selected_publications, Selected Publications]
@@ -37,96 +36,46 @@ order:
 #  - [all_publications, All Publications]
 #  - [activities, Activities]
 
-education:
-  - school: National University of San Luis
-    location: San Luis, Argentina
-    degree: Ph.D. in Computer Science
-    dates: 2017 -- 2023
 
-  - school: National University of San Luis
-    location: San Luis, Argentina
-    degree: Lic. in Computer Science
-    dates: 2010 -- 2017
+
+
+education:
+  - school: UFSC
+    location: Florianopólis, Brazil
+    degree: MsC. in Mechanical Engineering
+    dates: 2023 -- Present
+
+  - school: The Pontifícia Universidade Católica do Paraná
+    location: Curitiba, Brazil
+    degree: Mechanical Engineering
+    dates: 2018 -- 2023
 
 research:
   - place: National University of San Luis
     location: San Luis, Argentina
     title: Undergraduate Research Assistant
-    advisor: Marcelo Luis Errecalde
-    dates: Apr 2016 -- 2023
+    advisor: 
+    dates: Aug 2024 -- Present
     area: Machine learning and decision making in intelligent systems for the web
 
-  - place: National University of San Luis
-    location: San Luis, Argentina
-    title: Undergraduate Research Assistant
-    advisor: Marcelo Luis Errecalde
-    dates: Apr 2015 -- Apr 2016
-    area: Tools and mechanisms for decision making in artificial intelligent agents
+
 
 industry:
-  - place: ICBC
-    location: Argentina
-    title: Machine Learning Engineer
-    dates: 2023 -- Present
+  - place: Forvia
+    location: Brazil
+    title: Lean Manufacturing Intern
+    dates: 2020 -- 2022
     details:
       - 'Machine learning processes automatization: training, re-training and inference.'
       - Deploy and monitor models.
       - 'Stack: Python, FastAPI, Apache NiFi, Microsoft Azure, Docker'
 
-  - place: Scikit-learn
-    location: remote
-    title: Contributor experience team member
-    dates: 2022 -- Present
-    details:
-      - 'Contributed with \href{https://github.com/scikit-learn/scikit-learn/pulls?q=is%3Apr+author%3Ajmloyola+}{PRs} and \href{https://github.com/scikit-learn/scikit-learn/pulls?q=is%3Apr+reviewed-by%3Ajmloyola+-author%3Ajmloyola}{PRs reviews}.'
-      - 'Organized and ran a \href{https://blog.scikit-learn.org/events/salta-sprint/}{Scikit-Learn Sprint during the ScyPy Latin America 2022}.'
-      - 'Stack: Python, C'
-
-  - place: National University of San Luis
-    location: San Luis, Argentina
-    title: Teaching Assistant
-    dates: 2019 -- 2023
-    details:
-      - 'Databases (2020 -- 2023)'
-      - 'Data Structure and Algorithms (S2019)'
-      - 'Logic in Computer Science (F2019)'
-
-  - place: CONICET
-    location: Argentina
-    title: Ph.D. Fellow
-    dates: 2017 -- 2023
-    details:
-      - 'Main research topic: application of NLP models for early risk detection.'
-      - 'Open-sourced most of the project code. Link to repositories: \href{https://github.com/jmloyola/early-classification}{[1]}, \href{https://github.com/jmloyola/unsl_erisk_2021}{[2]}, \href{https://github.com/jmloyola/unsl_erisk_2022}{[3]}, \href{https://github.com/jmloyola/erisk_mock_server/}{[4]}.'
-      - 'Stack: Python, Scikit-learn, PyTorch, FastAPI, bash, Pandas, sqlite3, Docker, \LaTeX'
-
-  - place: NumFOCUS
-    location: '\href{https://summerofcode.withgoogle.com/projects/4666396833742848}{Google Summer of Code}'
-    title: Student Developer
-    dates: Jun 2019 -- Aug 2019
-    details:
-      - 'Developed the \href{https://arxiv.org/abs/2206.03619}{Bayesian Additive Regression Trees} base implementation in PyMC.'
-      - 'Stack: Python, PyMC, NumPy'
-
-  - place: Mercado Libre
-    location: San Luis, Argentina
-    title: Data Scientist
-    dates: 2016 -- 2017
-    details:
-      - "Built machine learning models to detect fraudulent transactions in Mercado Libre's platform."
-      - 'Worked in the model end to end: data cleaning, feature selection, model training, evaluation and deployment in production.'
-      - 'Stack: Python, SQL, Java'
 
 teaching:
-  - semester: 2020 -- 2023
-    name: Databases
+  - semester: 2023 -- 2023
+    name: Thermal Machines
     position: TA
-  - semester: S2019
-    name: Data Structure and Algorithms
-    position: TA
-  - semester: F2019
-    name: Logic in Computer Science
-    position: TA
+
 
 #selected_publications:
 #  name: "J. Loyola"
@@ -162,36 +111,7 @@ coursework:
   - semester: F2020
     name: Computer Technologies Applied to Land Management
     instructor: O. G. Cardenas Hernández
-  - semester: S2019
-    name: Advanced Methods in Statistical Inference and Learning
-    instructor: O. A. Martin
-  - semester: S2018
-    name: Data Mining
-    instructor: M. L. Errecalde
-  - semester: S2018
-    name: Scientific Writing in English
-    instructor: C. Mirallas
-  - semester: S2018
-    name: Bayesian Data Analysis
-    instructor: O. A. Martin
-  - semester: F2018
-    name: Mathematics for Data Science
-    instructor: J. M. Alonso
-  - semester: F2018
-    name: Writing of Scientific Texts
-    instructor: M. Bussetti
-  - semester: F2018
-    name: Introduction to Data Science
-    instructor: O. A. Martin
-  - semester: S2017
-    name: Introduction to Deep Learning
-    instructor: E. Ferretti
-  - semester: S2017
-    name: Epistemology
-    instructor: V. Guyot
-  - semester: S2017
-    name: New Proposals for Similarity Searches in Metric Databases
-    instructor: N. Reyes
+
 
 
 skills:
@@ -203,13 +123,14 @@ skills:
     details: GNU/Linux, Microsoft Azure, git, sqlite3, Docker, Apache NiFi, \LaTeX
 
 honors:
-  - title: CONICET Doctoral Fellowship
-    year: 2017 -- 2023
-  - title: Scholarship to attend the Machine Learning Summer School, Argentina
-    year: 2018
+  - title: CAPES Masters Scholarship 
+    year: 2023
+  - title: 
+    year: 2023
 
 service:
   - title: Host
     details: \href{https://www.meetup.com/PyData-San-Luis}{PyData Meetups San Luis} (2018 -- 2022)
   - title: Contributor
     details: \href{https://github.com/pymc-devs/pymc/commits?author=jmloyola}{PyMC}, \href{https://github.com/scikit-learn/scikit-learn/commits?author=jmloyola}{Scikit-learn}
+ 
